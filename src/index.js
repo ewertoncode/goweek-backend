@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 const app = express();
-mongoose.connect('mongodb://gpweek:adelaide10@ds133241.mlab.com:33241/goweek-ewerton', {
+mongoose.connect('mongodb://gpweek:123456@ds133241.mlab.com:33241/goweek-ewerton', {
     useNewUrlParser: true
 })
 
